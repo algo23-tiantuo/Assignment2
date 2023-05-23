@@ -6,7 +6,8 @@
 ## 拟合方法
 从20230428——SR307文件夹中提取数据，提取买一卖一价格，在log-moneyness为正时计算call iv, 在log-moneyness为负时计算put iv，合成到一张图上。在模型拟合时，使用scipy.optimize里的minimize函数进行参数估计。
 ## SVI拟合结果
-![](https://github.com/algo23-tiantuo/Assignment2/raw/master/svi.png) 
+![](https://github.com/algo23-tiantuo/Assignment2/blob/main/svi.png)
 ## Wing拟合结果
-
+![](https://github.com/algo23-tiantuo/Assignment2/blob/main/wing.png)
 ## SABR拟合结果
+![](https://github.com/algo23-tiantuo/Assignment2/blob/main/sabr.png)
